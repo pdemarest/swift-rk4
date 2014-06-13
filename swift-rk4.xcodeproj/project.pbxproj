@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D066028A194A8E6300FC1170 /* rk4.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0660289194A8E6300FC1170 /* rk4.swift */; };
 		D0FBF7D5194A8C1C00D72908 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FBF7D4194A8C1C00D72908 /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D0660289194A8E6300FC1170 /* rk4.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rk4.swift; sourceTree = "<group>"; };
 		D0FBF7D1194A8C1C00D72908 /* swift-rk4 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "swift-rk4"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FBF7D4194A8C1C00D72908 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -58,6 +60,7 @@
 			isa = PBXGroup;
 			children = (
 				D0FBF7D4194A8C1C00D72908 /* main.swift */,
+				D0660289194A8E6300FC1170 /* rk4.swift */,
 			);
 			path = "swift-rk4";
 			sourceTree = "<group>";
@@ -119,6 +122,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FBF7D5194A8C1C00D72908 /* main.swift in Sources */,
+				D066028A194A8E6300FC1170 /* rk4.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -233,6 +237,7 @@
 				D0FBF7DA194A8C1C00D72908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
